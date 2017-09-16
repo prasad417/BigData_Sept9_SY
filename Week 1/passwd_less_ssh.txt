@@ -1,0 +1,15 @@
+ubuntu@master:~/.ssh$ ssh ubuntu@datanode1
+Welcome to Ubuntu 16.04.2 LTS (GNU/Linux 4.4.0-1032-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+30 packages can be updated.
+0 updates are security updates.
+
+
+Last login: Wed Sep 13 23:19:40 2017 from 172.31.37.53
