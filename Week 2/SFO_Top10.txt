@@ -1,0 +1,26 @@
+hive> select Passenger_Count from sfo_airtraffic order by Passenger_Count desc limit 10;
+Query ID = ubuntu_20170919230819_3b4f06bb-46cd-4c68-95b2-d7cb00d28a1a
+Total jobs = 1
+Launching Job 1 out of 1
+Status: Running (Executing on YARN cluster with App id application_1505860982604_0003)
+
+--------------------------------------------------------------------------------
+        VERTICES      STATUS  TOTAL  COMPLETED  RUNNING  PENDING  FAILED  KILLED
+--------------------------------------------------------------------------------
+Map 1 ..........   SUCCEEDED      1          1        0        0       0       0
+Reducer 2 ......   SUCCEEDED      1          1        0        0       0       0
+--------------------------------------------------------------------------------
+VERTICES: 02/02  [==========================>>] 100%  ELAPSED TIME: 4.45 s
+--------------------------------------------------------------------------------
+OK
+659837
+629003
+625885
+622871
+573619
+558030
+556208
+553433
+548374
+544302
+Time taken: 5.048 seconds, Fetched: 10 row(s)
