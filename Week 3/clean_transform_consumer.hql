@@ -20,7 +20,9 @@ CREATE EXTERNAL TABLE IF NOT EXISTS consumer_complaints
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 LOCATION '/data/raw/consumer_data_raw';
-AS
+
+
+
 SELECT date_received, product, sub_product, issue, sub_issue, company, state, zipcode,
        submitted_via, date_sent_to_company, timely_response, consumer_disputed, complaint_id
   FROM consumer_complaints
