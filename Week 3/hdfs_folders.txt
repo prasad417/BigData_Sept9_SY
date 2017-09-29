@@ -1,0 +1,10 @@
+ubuntu@edgenode:~$ hdfs dfs -ls /data/raw/
+Found 1 items
+drwxr-xr-x   - ubuntu ubuntu          0 2017-09-26 05:41 /data/raw/consumer_data_raw
+ubuntu@edgenode:~$ hdfs dfs -ls /data/stage
+Found 1 items
+drwxr-xr-x   - ubuntu ubuntu          0 2017-09-26 05:35 /data/stage/consumer_data_stage
+ubuntu@edgenode:~$ hdfs dfs -ls /data/pub
+Found 1 items
+drwxr-xr-x   - ubuntu ubuntu          0 2017-09-26 05:36 /data/pub/consumer_data_pub
+ubuntu@edgenode:~$
