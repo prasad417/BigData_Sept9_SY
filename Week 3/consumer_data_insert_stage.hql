@@ -15,8 +15,8 @@ INSERT INTO TABLE consumer_complaint_stage
           timely_response,
           consumer_disputed,
           complaint_id,
-          year(from_unixtime(unix_timestamp(date_received,'mm/dd/yyyy'))) t_year,
-          month(from_unixtime(unix_timestamp(date_received,'mm/dd/yyyy'))) t_month,
-          day(from_unixtime(unix_timestamp(date_received,'mm/dd/yyyy'))) t_day
+          year(from_unixtime(unix_timestamp(date_received,'MM/dd/yyyy'))) t_year,
+          month(from_unixtime(unix_timestamp(date_received,'MM/dd/yyyy'))) t_month,
+          day(from_unixtime(unix_timestamp(date_received,'MM/dd/yyyy'))) t_day
   FROM consumer_complaints
   WHERE state IS NOT NULL AND zipcode IS NOT NULL AND zipcode NOT LIKE '%X%';
