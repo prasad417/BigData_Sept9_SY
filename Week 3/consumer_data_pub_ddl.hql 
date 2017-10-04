@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS consumer_complaint_pub;
+
+CREATE EXTERNAL TABLE consumer_complaint_pub
+( State STRING,
+  Total_Debt_Complaints INT
+)
+STORED AS PARQUET
+LOCATION '/data/pub/consumer_data_pub/';
