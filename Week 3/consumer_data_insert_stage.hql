@@ -1,5 +1,6 @@
 set hive.exec.dynamic.partition=true;
 set hive.exec.dynamic.partition.mode=nonstrict;
+set hive.optimize.sort.dynamic.partition=true;
 
 INSERT INTO TABLE consumer_complaint_stage
 	PARTITION (t_year, t_month , t_day)
